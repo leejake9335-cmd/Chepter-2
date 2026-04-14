@@ -1,46 +1,57 @@
 #include <stdio.h>
-#include <windows.h>	
 
-#define SIZE 10
+void shuffle(int array[], int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		int seed = rand() % size;	
+		int random = array[seed];
+		array[seed] = array[i];
+		array[i] = random;
+	}
+}
 
 int main()
 {
-#pragma region 포인터 배열
-	const char* texts[SIZE] = { NULL, };
 
-	texts[0] = "반갑습니다";
-	texts[1] = "안녕하세요";
-	texts[2] = "저는 sbs 아카데미 학생입니다";
-	texts[3] = "저는 sbs 아카데미 강사입니다";
-	texts[4] = "안녕하세요 선생님 잘 부탁드립니다";
-	texts[5] = "잘 해봅시다";
-	texts[6] = "네";
-	texts[7] = "오늘 배울 내용은 포인터 배열입니다";
-	texts[8] = "포인터 배열";
-	texts[9] = "간단하게 설명하자면";
+#pragma region 의사 난수
+	// 0 ~ 32767 사이의 의사 난수 값을 반환하는 함수입니다.
+
+	// UTC 기준으로 1970년 1월 1일 0시 0분 0초부터 경과된
+	// 시간을 초(sec)로 반환하는 함수입니다.
+
+	// srand : rand()가 사용할 초기값(seed)을 설정하는 함수입니다.
+
+	// srand(time(NULL));
+
+	// int random = rand();
+
+	// random = rand() % 10;
+
+	// random = rand() % 10 + 1;
+
+	// printf("%d\n", random);
+
+#pragma endregion
+
+#pragma region 셔플 함수
+	// int * array == int array[]
 	
-    // for (int i = 0; i < SIZE; i++)
-    // {
-    // 	printf("%s\n", texts[i]);
-    // }
+	// int list[] = { 1, 2, 3, 4, 5 , 6, 7, 8, 9, 10};
+	// 
+	// int size = sizeof(list) / sizeof(list[0]);
+	// 
+	// shuffle(list, size);
+	// 
+	// for (int i = 0; i < size; i++)
+	// {
+	// 	printf("변경전 값 : %d\n", list[i]);
+	// }
+	// printf("\n\n");
+
 	
-	// 0x0000 : 이전에 누른 적이 없고 호출 시점에도 눌려있지 않은 상태
 
-	// 0x0001 : 이전에 누른 적이 있고 호출 시점에는 눌려있지 않은 상태
 	
-	// 0x8000 : 이전에 누른 적이 없고 호출 시점에는 눌려있는 상태
-
-	// 0x8001 : 이전에 누른 적이 있고 호출 시점에도 눌려있는 상태
-
-	while (1)
-	{
-		if (GetAsyncKeyState(VK_SPACE) & 0x0001)
-		{
-			printf("학생\n %s", texts[i]);
-		}
-			printf("강사\n %s", texts[i]);
-	}
-
 #pragma endregion
 
 
