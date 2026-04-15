@@ -1,0 +1,5 @@
+﻿  souce.c
+C:\Users\leeja\OneDrive\Desktop\Chepter-2\Class2th (time system)\souce.c(7,14): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\leeja\OneDrive\Desktop\Chepter-2\Class2th (time system)\souce.c(58,2): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\leeja\OneDrive\Desktop\Chepter-2\Class2th (time system)\souce.c(58,8): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Class2th (time system).vcxproj -> C:\Users\leeja\OneDrive\Desktop\Chepter-2\Program\x64\Debug\Class2th (time system).exe
