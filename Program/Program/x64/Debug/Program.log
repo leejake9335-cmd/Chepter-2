@@ -1,2 +1,2 @@
 ﻿  source.c
-  Program.vcxproj -> C:\Users\leeja\OneDrive\Desktop\Chepter-2\Program\x64\Debug\Program.exe
+C:\Users\leeja\OneDrive\Desktop\Chepter-2\Program\source.c(12,1): error C4700: 초기화되지 않은 'count' 지역 변수를 사용했습니다.
