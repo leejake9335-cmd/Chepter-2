@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{E6DE2EDC-E25D-4E1A-B08B-1DFDE4FC6432}|Program.vcxproj|C:\\Users\\leeja\\OneDrive\\Desktop\\Chepter-2\\Program\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E6DE2EDC-E25D-4E1A-B08B-1DFDE4FC6432}|Program.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C230B200-D80B-436C-A2D8-186427314E75}|..\\Class5th (Double Buffering)\\Class5th (Double Buffering).vcxproj|C:\\Users\\leeja\\OneDrive\\Desktop\\Chepter-2\\Class5th (Double Buffering)\\souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "souce.c",
+              "DocumentMoniker": "C:\\Users\\leeja\\OneDrive\\Desktop\\Chepter-2\\Class5th (Double Buffering)\\souce.c",
+              "RelativeDocumentMoniker": "..\\Class5th (Double Buffering)\\souce.c",
+              "ToolTip": "C:\\Users\\leeja\\OneDrive\\Desktop\\Chepter-2\\Class5th (Double Buffering)\\souce.c",
+              "RelativeToolTip": "..\\Class5th (Double Buffering)\\souce.c",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAkwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-23T10:30:08.692Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "source.c",
               "ToolTip": "C:\\Users\\leeja\\OneDrive\\Desktop\\Chepter-2\\Program\\source.c",
               "RelativeToolTip": "source.c",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAFUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-04-13T09:07:35.909Z",
               "EditorCaption": ""
